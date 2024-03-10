@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Fruits from './Fruits'
-// import Fruitshtml from './Fruitshtml'
-import './Fruits.css'
+import Coffeeshop from './Coffeeshop'
+import coffeehtml from './coffeehtml'
+// import './Coffeeshop'
 
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Fruits />
+    <Coffeeshop />
   </React.StrictMode>
 );
 
